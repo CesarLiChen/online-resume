@@ -21,17 +21,23 @@ a:hover {
 }
 
 /* Header CSS */
-.header-container {
+.header-container, .content-container {
     display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
 }
 
-.header-right {
+.header-right, .content-right {
     text-align: right;
     /* border-style: dotted; */
-    flex: 1;
+    flex: 50%;
 }
 
-.header-left {
+.header-left, .content-left {
     /* border-style: dashed; */
+    flex: 50%;
+}
+
+.content-main {
     flex: 1;
 }
