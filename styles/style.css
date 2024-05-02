@@ -1,5 +1,5 @@
 .resume {
-    
+    --link-color: blue;
     border-style: solid;
     margin: 2em;
 
@@ -7,6 +7,31 @@
     font-size: 1.5vh;
 }
 
-#name {
-    font-size: 2em;
+h1 {
+    margin: auto;
+}
+
+/* For links */
+a:link, a:visited {
+    color: var(--link-color);
+}
+
+a:hover {
+    color:rebeccapurple;
+}
+
+/* Header CSS */
+.header-container {
+    display: flex;
+}
+
+.header-right {
+    text-align: right;
+    /* border-style: dotted; */
+    flex: 1;
+}
+
+.header-left {
+    /* border-style: dashed; */
+    flex: 1;
 }
