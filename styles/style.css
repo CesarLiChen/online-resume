@@ -1,0 +1,12 @@
+.resume {
+    
+    border-style: solid;
+    margin: 2em;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vh;
+}
+
+#name {
+    font-size: 2em;
+}
