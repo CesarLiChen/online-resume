@@ -1,10 +1,10 @@
 .resume {
     --link-color: blue;
-    border-style: solid;
-    margin: 2em;
+    margin: 3em auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin#syntax */
 
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vh;
+    max-width: 1050px;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    margin: 1em 0em 0em 0em; /* top right left bottom */
+    margin: 1em 0em 0em 0em; /* top right bottom left */
 }
 
 /* For links */
@@ -24,7 +24,7 @@ a:hover {
     color:rebeccapurple;
 }
 
-/* Header CSS */
+/* Header and Content CSS */
 .header-container, .content-container {
     display: flex;
     align-items: flex-start;
