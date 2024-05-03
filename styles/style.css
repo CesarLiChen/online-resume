@@ -1,10 +1,22 @@
 .resume {
     --link-color: blue;
-    margin: 3em auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin#syntax */
+    margin: auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin#syntax */
 
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vh;
     max-width: 1050px;
+}
+
+.dark-btn {
+    font-size: 0.8em;
+    position: relative;
+    left: 70%;
+    padding: 0.1em;    
+}
+
+.dark-btn:hover {
+    background-color: #4e4b4b;
+    color: rgba(255, 255, 255, 0.623);
 }
 
 h1 {
